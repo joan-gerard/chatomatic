@@ -1,4 +1,4 @@
-# GameUp
+# The app
 A chat application built using React, GraphQL, Apollo and Websockets
 
 
