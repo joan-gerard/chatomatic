@@ -1,13 +1,13 @@
-# The app
+# The app.
 A chat application built using React, GraphQL, Apollo and Websockets
 
 
 ## The Stack.
 
-<!-- * Programming Language
+* Programming Language
     * JS/TS
 * Frontend
-    * React, Apollo Client -->
+    * React, Apollo Client
 * Server
     * node.js, graphql-yogo, 
 <!-- * Data
