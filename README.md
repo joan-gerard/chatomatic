@@ -9,7 +9,8 @@ A chat application built using React, GraphQL, Apollo and Websockets
 * Frontend
     * React, Apollo Client
 * Server
-    * node.js, graphql-yogo, 
+    * node.js, graphql-yoga, 
+* Bundled with Webpack
 <!-- * Data
     * MongoDB
 * Auth
