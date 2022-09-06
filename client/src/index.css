@@ -1,3 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.messages-container {
+  padding: 1rem;
+}
+
+.myMessages,
+.othersMessages {
+  padding: 0.5rem;
+  border-radius: 8px;
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+}
+.myMessages {
+  justify-content: flex-end;
+}
+
+.myMessages div {
+  background-color: #0084ff;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.othersMessages div {
+  background-color: #e4e6ea;
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 8px;
+
+}
+
+.myMessages-initials,
+.othersMessages-initials {
+  background-color: white;
+  color: black;
+  padding: 0.25rem;
+  border-radius: 9999px;
+}
+
+.myMessages-initials {
+  margin-left: 0.75rem;
+}
+.othersMessages-initials {
+  margin-right: 0.75rem;
 }

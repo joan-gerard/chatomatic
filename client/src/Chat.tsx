@@ -10,7 +10,7 @@ const client = new ApolloClient({
 const Chat = () => {
   return (
     <div>
-      <Messages />
+      <Messages myself="joe" />
     </div>
   );
 };
