@@ -7,6 +7,34 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#app {
+  height: 100%;
+}
+
+.chatomatic {
+  background-color: red;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(12, 1fr); */
+}
+
+.chat-form {
+  background-color: green;
+  height: 10vh;
+  width: 100%;
+
+}
+
+.chat-body {
+  height: 90vh;
+  width: 100%;
+  overflow: hidden;
+}
+
 .messages-container {
   padding: 1rem;
 }
