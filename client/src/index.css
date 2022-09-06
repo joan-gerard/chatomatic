@@ -23,31 +23,33 @@ body {
   justify-content: flex-end;
 }
 
-.myMessages div {
-  background-color: #0084ff;
-  color: white;
+.myMessages div,
+.othersMessages div {
   display: flex;
   align-items: center;
-  padding: 0.5rem;
   border-radius: 8px;
 }
 
-.othersMessages div {
-  background-color: #e4e6ea;
-  justify-content: flex-start;
-  display: flex;
-  align-items: center;
-  padding: 0.5rem;
-  border-radius: 8px;
+.myMessages div p {
+  background-color: #0084ff;
+  color: white;
+  padding: 0.6rem 0.75rem;
+  border-radius: 25px;
+}
 
+.othersMessages div p {
+  background-color: #e4e6ea;
+  padding: 0.6rem 0.75rem;
+  border-radius: 25px;
 }
 
 .myMessages-initials,
 .othersMessages-initials {
   background-color: white;
   color: black;
-  padding: 0.25rem;
+  padding: 0.5rem;
   border-radius: 9999px;
+  border: 1px solid black;
 }
 
 .myMessages-initials {
