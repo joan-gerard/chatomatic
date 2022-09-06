@@ -1,14 +1,19 @@
 import React from "react";
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
+import Messages from "./components/Messages";
 
 const client = new ApolloClient({
-  uri: "https://flyby-gateway.herokuapp.com/",
+  uri: "http://localhost:4000/graphql",
   cache: new InMemoryCache(),
 });
 
-function Chat() {
-  return <div>Chat</div>;
-}
+const Chat = () => {
+  return (
+    <div>
+      <Messages />
+    </div>
+  );
+};
 
 export default () => {
   return (
